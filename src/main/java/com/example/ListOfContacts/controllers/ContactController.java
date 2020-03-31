@@ -13,12 +13,12 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/contact")
-public class AddController {
+public class ContactController {
 
     @Autowired
     private IContactRepository contactRepository;
 
-    @RequestMapping(value = "/add", produces = MediaType.APPLICATION_JSON_VALUE/*,  method = RequestMethod.POST*/)
+    @RequestMapping(value = "/add", produces = MediaType.APPLICATION_JSON_VALUE,  method = RequestMethod.POST)
     public String addContact(@RequestBody ContactJSON contactJSON) {
 
         Contact contact = new Contact();

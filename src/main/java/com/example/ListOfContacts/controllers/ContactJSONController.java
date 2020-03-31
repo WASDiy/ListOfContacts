@@ -12,12 +12,12 @@ import com.example.ListOfContacts.repositories.interfaces.IContactRepository;
 import java.util.Map;
 
 @RestController
-public class ShowController {
+public class ContactJSONController {
 
     @Autowired
     private IContactRepository contactRepository;
-    /*
-    @RequestMapping(value = "/add", produces = MediaType.APPLICATION_JSON_VALUE,  method = RequestMethod.POST)
+
+    @RequestMapping(value = "/addJSON", produces = MediaType.APPLICATION_JSON_VALUE,  method = RequestMethod.POST)
     public String addContact(@RequestBody ContactJSON contactJSON) {
 
         Contact contact = new Contact();
@@ -25,17 +25,9 @@ public class ShowController {
         contact.setPhoneNumber(contactJSON.getPhoneNumber());
         contactRepository.save(contact);
 
-        return "add";
-    }*/
-
-    @GetMapping(path="/getAll")
-    public String getAllContacts(Map<String, Object> model) {
-        Iterable<Contact> contact = contactRepository.findAll();
-
-        model.put("contacts", contact);
-
-        return "contacts";
+        return "Контакт добавлен!";
     }
+
 
     @GetMapping(path="/getAllJSON")
     public Iterable<Contact> getAllContacts() {
