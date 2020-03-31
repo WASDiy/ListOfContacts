@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c772af9-2381-4b11-9e22-1e901206edc0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ListOfContacts/controllers/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ListOfContacts/controllers/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ListOfContacts/controllers/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ListOfContacts/controllers/ContactJSONController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ListOfContacts/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ListOfContacts/Application.class" afterDir="false" />
-    </list>
+    <list default="true" id="4c772af9-2381-4b11-9e22-1e901206edc0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -365,7 +358,7 @@
       <workItem from="1585295537727" duration="9892000" />
       <workItem from="1585310237878" duration="5196000" />
       <workItem from="1585562135857" duration="5911000" />
-      <workItem from="1585572150190" duration="30206000" />
+      <workItem from="1585572150190" duration="31066000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал тестовое задание.">
       <created>1585662329187</created>
@@ -374,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585662329187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Вношу некоторые поправки.">
+      <created>1585676651271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585676651271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66858000" />
+    <option name="totallyTimeSpent" value="67718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -425,7 +425,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Доделал тестовое задание." />
-    <option name="LAST_COMMIT_MESSAGE" value="Доделал тестовое задание." />
+    <MESSAGE value="Вношу некоторые поправки." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вношу некоторые поправки." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

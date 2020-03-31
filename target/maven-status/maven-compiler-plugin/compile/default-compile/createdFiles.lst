@@ -1,0 +1,6 @@
+com\example\ListOfContacts\models\ContactJSON.class
+com\example\ListOfContacts\controllers\ContactJSONController.class
+com\example\ListOfContacts\repositories\interfaces\IContactRepository.class
+com\example\ListOfContacts\controllers\ContactController.class
+com\example\ListOfContacts\Application.class
+com\example\ListOfContacts\models\Contact.class
