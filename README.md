@@ -33,7 +33,7 @@ ALTER TABLE public.contact
      
 2) Через Postman:  
      По ссылке http://localhost:8080/getAllJSON отправляем GET-запроc, чтобы получить списко контактов в формате JSON.  
-     Для добавления контакта нужно отправить POST-запрос на http://localhost:8080/addJSON, в тело которого поместить JSON следующего        формата:
+     Для добавления контакта нужно отправить POST-запрос на http://localhost:8080/addJSON, в тело нужно которого поместить JSON следующего        формата:
      ```json
      {
          "name":"name",
