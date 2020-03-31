@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div>Добавление контакта</div>
+    <div>
+        <form method="post" name="form">
+            <input type="text" name="name" placeholder="Введите имя">
+            <input type="text" name="phoneNumber" placeholder="Введите номер телефона">
+            <button type="submit" id="btn">Добавить</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('btn').onclick = function(){
+            var object = {};
+            var formData = new FormData(document.forms.form);
+
+            formData.forEach(function(value, key){
+                object[key] = value;
+            });
+
+            var json = JSON.stringify(object);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", '/contact/add', true)
+            xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+
+            xhr.send(json);
+        }
+    </script>
+
+    <div>Список контактов</div>
+    {{#contacts}}
+        <div>
+            <b>Имя: {{name}}</b>
+            <b>Номер: {{phoneNumber}}</b>
+        </div>
+    {{/contacts}}
+</body>
+</html>
